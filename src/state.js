@@ -77,7 +77,7 @@ export default {
   "description": "Drainage of Right Lower Lung Lobe, Via Opening",
   "price": "$57.59",
    "imgUrl": "/images/b4.jpg",
-  "category": "bumpers",
+  "category": "truck bumpers",
   "rating": 2,
   "reviews": 4
 }, {

@@ -6,7 +6,7 @@ const ProductDetail = (props) => {
     return (
       props.products.map((cur, ind) => {
         return (
-          <div className="grid_1_of_5 images_1_of_5">
+          <div className={ind} key={ind}>
             <img src={cur.imgUrl} />
             <h3>{cur.name} </h3>
             <p>{cur.description} </p>
@@ -18,6 +18,7 @@ const ProductDetail = (props) => {
       )
     )
   }
+
   return (
     <div>
       {blah(props)}
